@@ -16,7 +16,7 @@
       "type": "publica",
       "auth": false,
       "prerequisites": [],
-      "waitForText": "Tudo o que está no papel",
+      "waitForText": "Do físico ao digital",
       "flows": ["botões de serviço abrem wa.me com a mensagem do serviço", "montar pedido com e sem campos opcionais", "loja das plaquinhas abre em nova aba"],
       "acceptance": ["Sem erros de console", "Sem scroll horizontal", "Botão do WhatsApp visível sem rolar no mobile"]
     },
