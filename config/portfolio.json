@@ -1,0 +1,47 @@
+[
+  {
+    "nome": "Página de links da Santa Maria",
+    "segmento": "Vidraçaria e serralharia",
+    "resolve": "Um link só na bio com orçamento pelo WhatsApp, Instagram, como chegar e avaliação no Google.",
+    "link": "https://santa-maria-links.vercel.app",
+    "capa": "/portfolio/santa-maria-links-1440.webp",
+    "capaMobile": "/portfolio/santa-maria-links-375.webp",
+    "autorizado": false
+  },
+  {
+    "nome": "Orçamento da Santa Maria",
+    "segmento": "Vidraçaria e serralharia",
+    "resolve": "O cliente escolhe o produto, informa as medidas, vê o preço na hora e manda o pedido pelo WhatsApp.",
+    "link": "https://santa-maria-orcamento.vercel.app",
+    "capa": "/portfolio/santa-maria-orcamento-1440.webp",
+    "capaMobile": "/portfolio/santa-maria-orcamento-375.webp",
+    "autorizado": false
+  },
+  {
+    "nome": "Orçamento de conserto de celular",
+    "segmento": "Assistência técnica",
+    "resolve": "O cliente escolhe o aparelho e o reparo, vê a faixa de preço e envia o pedido pronto pelo WhatsApp.",
+    "link": "https://orcamento-assistencia-celular.vercel.app",
+    "capa": "/portfolio/orcamento-celular-1440.webp",
+    "capaMobile": "/portfolio/orcamento-celular-375.webp",
+    "autorizado": false
+  },
+  {
+    "nome": "Site de lanchonete",
+    "segmento": "Lanchonete",
+    "resolve": "Cardápio por categoria, busca, aviso de aberto ou fechado e pedido montado no próprio site.",
+    "link": "https://lanchonete-site-ruddy.vercel.app",
+    "capa": "/portfolio/lanchonete-1440.webp",
+    "capaMobile": "/portfolio/lanchonete-375.webp",
+    "autorizado": false
+  },
+  {
+    "nome": "Sua Plaquinha NFC",
+    "segmento": "Loja própria da Novix",
+    "resolve": "Explica a plaquinha em 3 passos, mostra os modelos e os preços e leva o pedido para o WhatsApp.",
+    "link": "https://reposit-rio-ambiente.vercel.app",
+    "capa": "/portfolio/plaquinha-nfc-1440.webp",
+    "capaMobile": "/portfolio/plaquinha-nfc-375.webp",
+    "autorizado": false
+  }
+]

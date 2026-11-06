@@ -1,0 +1,191 @@
+{
+  "nome": "Novix Tecnologia",
+  "frase": "Tudo o que está no papel, a gente coloca na palma da sua mão.",
+  "fraseApoio": "Sistemas, automações, sites e plaquinhas NFC para pequenos negócios de Boqueirão, Campina Grande e região.",
+  "resultado": "Seu cliente agenda, pede orçamento e avalia pelo celular. Você acompanha tudo sem caderno.",
+  "whatsapp": "5583991153515",
+  "whatsappExibicao": "(83) 9 9115-3515",
+  "mensagemPadrao": "Olá! Vim pelo site da Novix e quero conversar sobre um projeto.",
+  "email": "kaiofelipee12@gmail.com",
+  "area": "Boqueirão, Campina Grande e região (PB)",
+  "cidade": "Campina Grande",
+  "uf": "PB",
+  "cnpj": "",
+  "instagram": "https://www.instagram.com/novix_tecnologia/",
+  "siteUrl": "https://novix-site.vercel.app",
+  "seoTitulo": "Novix Tecnologia · Sistemas e sites em Campina Grande/PB",
+  "seoDescricao": "Sistemas de agendamento, automação, sistemas sob medida, sites e plaquinhas NFC para pequenos negócios de Boqueirão, Campina Grande e região.",
+  "lojaNfc": {
+    "url": "https://reposit-rio-ambiente.vercel.app",
+    "descricao": "A plaquinha tem um chip que abre um link quando o celular encosta nela. Não precisa de app. Quem não tem NFC aponta a câmera para o QR Code.",
+    "precoCentavos": 4000,
+    "conferidoEm": "2026-11-05",
+    "modelos": [
+      {
+        "nome": "Avaliação no Google",
+        "uso": "O cliente encosta o celular e já cai na tela de avaliar a sua empresa."
+      },
+      {
+        "nome": "Pix",
+        "uso": "Abre o seu Pix na hora de pagar, sem digitar chave."
+      },
+      {
+        "nome": "Instagram",
+        "uso": "Abre o seu perfil para o cliente seguir ali mesmo."
+      },
+      {
+        "nome": "Cardápio",
+        "uso": "Abre o cardápio digital na mesa ou no balcão."
+      },
+      {
+        "nome": "Link ou site",
+        "uso": "Qualquer link que você quiser: site, catálogo ou página de links."
+      }
+    ]
+  },
+  "servicos": [
+    {
+      "id": "agendamento",
+      "nome": "Sistemas de agendamento",
+      "resultado": "O cliente marca horário pelo celular, recebe a confirmação e você vê a agenda do dia.",
+      "exemplos": [
+        "Barbearia e salão de beleza",
+        "Clínica e consultório",
+        "Estúdio, oficina ou assistência técnica"
+      ],
+      "pedido": "um sistema de agendamento",
+      "mensagem": "Olá! Vim pelo site da Novix e quero um sistema de agendamento para o meu negócio.",
+      "precoCentavos": null,
+      "botaoLink": "",
+      "botaoTexto": ""
+    },
+    {
+      "id": "automacao",
+      "nome": "Automação",
+      "resultado": "Tarefas repetidas passam a rodar sozinhas: mensagens, planilhas, relatórios e integração entre sistemas.",
+      "exemplos": [
+        "Resumo do dia que chega pronto no WhatsApp",
+        "Planilha que se preenche com as vendas",
+        "Pedido do site que entra direto no controle"
+      ],
+      "pedido": "automação",
+      "mensagem": "Olá! Vim pelo site da Novix e quero automatizar uma tarefa do meu negócio.",
+      "precoCentavos": null,
+      "botaoLink": "",
+      "botaoTexto": ""
+    },
+    {
+      "id": "sob-medida",
+      "nome": "Sistemas sob medida",
+      "resultado": "O que hoje fica no papel vira um app no celular, do jeito que o seu negócio já funciona.",
+      "exemplos": [
+        "Cadastro de clientes e ficha de atendimento",
+        "Controle de estoque e reposição",
+        "Orçamento, pedidos e painel do dia"
+      ],
+      "pedido": "um sistema sob medida",
+      "mensagem": "Olá! Vim pelo site da Novix e quero um sistema sob medida para o meu negócio.",
+      "precoCentavos": null,
+      "botaoLink": "",
+      "botaoTexto": ""
+    },
+    {
+      "id": "sites",
+      "nome": "Sites e páginas de links",
+      "resultado": "Seu negócio aparece no Google e o cliente acha contato, endereço e serviços num lugar só.",
+      "exemplos": [
+        "Site do negócio",
+        "Cardápio digital",
+        "Página de links para a bio do Instagram"
+      ],
+      "pedido": "um site",
+      "mensagem": "Olá! Vim pelo site da Novix e quero um site para o meu negócio.",
+      "precoCentavos": 5000,
+      "botaoLink": "",
+      "botaoTexto": ""
+    },
+    {
+      "id": "nfc",
+      "nome": "Plaquinhas NFC",
+      "resultado": "O cliente encosta o celular na plaquinha e abre a avaliação no Google, o Pix, o Instagram ou o cardápio.",
+      "exemplos": [
+        "Avaliação no Google no balcão",
+        "Pix no caixa",
+        "Cardápio na mesa"
+      ],
+      "pedido": "plaquinhas NFC",
+      "mensagem": "Olá! Vim pelo site da Novix e quero saber das plaquinhas NFC.",
+      "precoCentavos": 4000,
+      "botaoLink": "https://reposit-rio-ambiente.vercel.app",
+      "botaoTexto": "Ver modelos na loja"
+    }
+  ],
+  "etapas": [
+    {
+      "titulo": "Conversa",
+      "texto": "Você conta pelo WhatsApp como o negócio funciona hoje e o que quer resolver."
+    },
+    {
+      "titulo": "Proposta",
+      "texto": "Você recebe o que será feito, o prazo e o valor antes de qualquer pagamento."
+    },
+    {
+      "titulo": "Desenvolvimento com prévia",
+      "texto": "Você vê uma prévia funcionando e pede ajustes enquanto o projeto é feito."
+    },
+    {
+      "titulo": "Entrega e suporte",
+      "texto": "O projeto entra no ar e você tem suporte para tirar dúvidas e ajustar."
+    }
+  ],
+  "prazos": [
+    "o quanto antes",
+    "até 15 dias",
+    "até 30 dias",
+    "sem pressa"
+  ],
+  "faq": [
+    {
+      "pergunta": "Quanto custa?",
+      "resposta": "Cada serviço mostra o preço inicial no próprio bloco. O que é sob orçamento tem o valor escrito na proposta, antes de começar."
+    },
+    {
+      "pergunta": "Quanto tempo leva?",
+      "resposta": "Depende do que for feito. O prazo vem na proposta, junto com o valor, e você acompanha uma prévia durante o desenvolvimento."
+    },
+    {
+      "pergunta": "Preciso pagar mensalidade?",
+      "resposta": "Depende do projeto. Se houver algum custo mensal, como hospedagem ou domínio, ele aparece na proposta antes de você fechar."
+    },
+    {
+      "pergunta": "Quem hospeda o site ou o sistema?",
+      "resposta": "Isso é combinado na proposta: a Novix pode publicar e cuidar da hospedagem, ou o projeto fica numa conta no seu nome."
+    },
+    {
+      "pergunta": "E se eu quiser mudar algo depois?",
+      "resposta": "Pode pedir pelo WhatsApp. A gente conversa sobre a mudança e combina prazo e valor antes de mexer."
+    },
+    {
+      "pergunta": "Como funciona a plaquinha NFC?",
+      "resposta": "A plaquinha tem um chip gravado com um link. O cliente encosta o celular e o link abre na hora, sem baixar app. Quem não tem NFC aponta a câmera para o QR Code."
+    }
+  ],
+  "depoimentos": [],
+  "destaques": [
+    {
+      "servico": "agendamento",
+      "titulo": "Horário confirmado",
+      "texto": "Corte de cabelo · hoje, 14:30"
+    },
+    {
+      "servico": "automacao",
+      "titulo": "Resumo do dia no WhatsApp",
+      "texto": "12 pedidos · estoque em dia"
+    },
+    {
+      "servico": "nfc",
+      "titulo": "Nova avaliação no Google",
+      "texto": "★★★★★ veio da plaquinha do balcão"
+    }
+  ]
+}

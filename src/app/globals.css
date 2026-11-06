@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/* Cores conferidas em src/lib/contrast.test.ts (fonte: src/lib/palette.ts). */
+@theme {
+  --color-bg: #111318;
+  --color-surface: #1a1d24;
+  --color-line: rgb(255 255 255 / 0.12);
+  --color-ink: #ffffff;
+  --color-muted: #c9ccd2;
+  --color-blue: #1f5bff;
+  --color-blue-text: #4d7dff;
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-bg);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-blue-text);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ---------- Elementos visuais (sempre visíveis) ---------- */
+
+/* Em @layer components para que utilitários do Tailwind (ex.: bg-bg) possam sobrescrever. */
+@layer components {
+  /* Grade fina do topo, some nas bordas. */
+  .hero-grid {
+    background-image:
+      linear-gradient(var(--color-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--color-line) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse 60% 70% at 70% 40%, #000 20%, transparent 75%);
+    opacity: 0.45;
+  }
+
+  /* Brilho azul atrás de visuais. */
+  .glow {
+    background: radial-gradient(circle, rgb(31 91 255 / 0.32), transparent 65%);
+  }
+
+  /* Cartão: borda e sombra azul no hover/foco. O deslocamento só entra sem "reduzir movimento". */
+  .card {
+    border: 1px solid var(--color-line);
+    background: linear-gradient(180deg, rgb(255 255 255 / 0.035), transparent 40%), var(--color-surface);
+    transition:
+      border-color 0.25s,
+      box-shadow 0.25s,
+      transform 0.25s;
+  }
+  .card:hover,
+  .card:focus-within {
+    border-color: rgb(77 125 255 / 0.55);
+    box-shadow: 0 24px 48px -28px rgb(31 91 255 / 0.7);
+  }
+}
+
+/* ---------- Movimento (só com prefers-reduced-motion: no-preference) ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+  .rise {
+    animation: rise 0.5s ease-out both;
+  }
+  .rise-delay {
+    animation: rise 0.5s 0.12s ease-out both;
+  }
+  .card:not(form):hover,
+  .card:not(form):focus-within {
+    transform: translateY(-4px);
+  }
+  .float {
+    animation: float 7s ease-in-out infinite;
+  }
+  /* Entrada em sequência: defina --i (0, 1, 2…) no elemento. */
+  .pop {
+    animation: pop 0.6s calc(0.35s + var(--i, 0) * 0.35s) cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+  .glow {
+    animation: breathe 8s ease-in-out infinite;
+  }
+  .ring {
+    animation: ring 2.4s calc(var(--i, 0) * 0.8s) ease-out infinite;
+  }
+  .grid-pan {
+    animation: grid-pan 30s linear infinite;
+  }
+
+  /* Revelar ao rolar sem JS. Navegador sem suporte mostra tudo direto. */
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+    .draw {
+      transform-origin: left;
+      animation: draw linear both;
+      animation-timeline: view();
+      animation-range: entry 20% cover 45%;
+    }
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.96);
+  }
+}
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes breathe {
+  50% {
+    opacity: 0.6;
+    transform: scale(1.08);
+  }
+}
+@keyframes ring {
+  from {
+    opacity: 0.7;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+}
+@keyframes grid-pan {
+  to {
+    background-position: 48px 48px;
+  }
+}
+@keyframes draw {
+  from {
+    transform: scaleX(0);
+  }
+}
