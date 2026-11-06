@@ -28,7 +28,13 @@ O preço vem de `lojaNfc.precoCentavos` e de `servicos[nfc].precoCentavos`. Quan
 - Favicon: `src/app/icon.svg`.
 - `apple-icon.png` e `public/og.png`: edite `scripts/assets/` e rode `node scripts/brand-assets.mjs`.
 
-## Publicar na Vercel (passo a passo, **não executado**)
+## Publicar na Vercel
+
+**Situação atual:** projeto `novix-site` na Vercel, publicado pela CLI. Endereço: https://novix-site-topaz.vercel.app. Para publicar uma mudança: `npm run check` e depois `npx vercel deploy --prod`. Para só testar: `npx vercel deploy` (preview).
+
+> Atenção: no **primeiro** deploy de um projeto novo, a Vercel marca como produção mesmo sem `--prod`. Foi o que aconteceu aqui.
+
+### Passo a passo original (para outro projeto ou conta)
 Antes de publicar, resolva as premissas do PRODUCT.md, principalmente `siteUrl` e o portfólio.
 
 1. Crie um repositório no GitHub e envie o projeto:

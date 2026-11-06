@@ -33,7 +33,7 @@ Backend, banco de dados, login, analytics, cookies, blog e pagamento online.
 
 ## Premissas a confirmar com o dono
 1. **Portfólio:** nenhum cliente confirmou ainda a autorização para aparecer no site. Todos estão `autorizado: false` e a seção fica escondida.
-2. **Domínio:** `siteUrl` = `https://novix-site.vercel.app` é uma suposição. Troque quando o domínio existir; isso afeta o canonical, o sitemap e o OG.
+2. **Domínio:** o site está no ar em `https://novix-site-topaz.vercel.app` (Vercel, projeto `novix-site`). Se trocar por domínio próprio, atualize `siteUrl`; isso afeta o canonical, o sitemap e o OG.
 3. **FAQ:** as respostas sobre mensalidade, hospedagem e mudanças depois são genéricas ("combinado na proposta"). Confirme a política real.
 4. **Preços:** sites "a partir de R$ 50,00" e plaquinhas "a partir de R$ 40,00" (conferido na loja em 05/11/2026). Os outros serviços são sob orçamento.
 5. **CNPJ e depoimentos:** estão vazios e escondidos.
@@ -42,4 +42,4 @@ Backend, banco de dados, login, analytics, cookies, blog e pagamento online.
 ## Pendências fora do código
 - Duas páginas do portfólio ainda mostram textos de modelo: "Orçamento pelo celular" ("[NOME DA LOJA]", "foto pendente", "WhatsApp ainda não configurado") e "Lanchonete" ("Lanchonete da Esquina · São Paulo"). Corrija antes de autorizar.
 - A página da Santa Maria mostra "Outro WhatsApp: (83) 99115-3515", que é o número da Novix. Confirme se está certo.
-- Publicação: ainda não feita (veja docs/setup.md).
+- Publicação: no ar desde 05/11/2026 em https://novix-site-topaz.vercel.app (deploy pela Vercel CLI).

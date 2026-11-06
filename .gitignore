@@ -42,3 +42,5 @@ next-env.d.ts
 
 # validate-app
 /.claude/validation/out/
+
+.vercel
