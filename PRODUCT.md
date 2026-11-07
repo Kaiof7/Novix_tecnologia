@@ -4,7 +4,7 @@
 Site de apresentação da Novix Tecnologia: uma página com serviços, trabalhos, como funciona, montar pedido, plaquinhas NFC e dúvidas. Também tem uma página de privacidade. Todo contato acontece pelo WhatsApp, e o site não guarda nada.
 
 ## Para quem
-Donos de pequenos negócios de Boqueirão, Campina Grande e região (PB): barbearia, clínica, lanchonete, loja, oficina. A maioria acessa pelo celular, vinda do Instagram.
+Donos de pequenos negócios (atendimento presencial em Boqueirão, Campina Grande e região, citado só no rodapé): barbearia, clínica, lanchonete, loja, oficina. A maioria acessa pelo celular, vinda do Instagram.
 
 ## Resultado esperado
 O visitante entende em segundos o que a Novix faz. Depois ele chega ao WhatsApp com uma mensagem pronta que diz quem é e o que quer.

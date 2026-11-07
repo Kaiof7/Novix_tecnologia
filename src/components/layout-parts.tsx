@@ -57,7 +57,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-8 px-5 md:grid-cols-3">
         <div className="space-y-3">
           <Logo name={nome} />
-          {area && <p className="text-sm text-muted">Atendimento em {area}.</p>}
+          {area && <p className="text-sm text-muted">Atendimento presencial em {area}.</p>}
           {cnpj && <p className="text-sm text-muted">CNPJ {cnpj}</p>}
         </div>
         <div>

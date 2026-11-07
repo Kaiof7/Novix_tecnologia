@@ -1,7 +1,7 @@
 {
   "nome": "Novix Tecnologia",
   "frase": "Do físico ao digital.",
-  "fraseApoio": "Soluções digitais para empresas: sites, sistemas e tecnologia NFC para Boqueirão, Campina Grande e região.",
+  "fraseApoio": "Soluções digitais para empresas: sites, sistemas e tecnologia NFC.",
   "resultado": "O que hoje está no papel, no caderno e no balcão vai para o celular. Seu cliente agenda, pede orçamento e avalia, e você acompanha tudo.",
   "whatsapp": "5583991153515",
   "whatsappExibicao": "(83) 9 9115-3515",
@@ -13,8 +13,8 @@
   "cnpj": "",
   "instagram": "https://www.instagram.com/novix_tecnologia/",
   "siteUrl": "https://novix-site-topaz.vercel.app",
-  "seoTitulo": "Novix Tecnologia · Soluções digitais em Campina Grande/PB",
-  "seoDescricao": "Soluções digitais para empresas: sites, sistemas e tecnologia NFC em Boqueirão, Campina Grande e região. Do físico ao digital.",
+  "seoTitulo": "Novix Tecnologia · Soluções digitais para empresas",
+  "seoDescricao": "Soluções digitais para empresas: sites, sistemas, automação e tecnologia NFC. Do físico ao digital, com pedido direto pelo WhatsApp.",
   "lojaNfc": {
     "url": "https://reposit-rio-ambiente.vercel.app",
     "descricao": "A plaquinha tem um chip que abre um link quando o celular encosta nela. Não precisa de app. Quem não tem NFC aponta a câmera para o QR Code.",
